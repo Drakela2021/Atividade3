@@ -1,12 +1,6 @@
 {
   "routes": [
-    {
-      "src": "/img/(.*)",
-      "dest": "/public/img/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.js"
-    }
+    { "src": "/img/(.*)", "dest": "/public/img/$1" },
+    { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
