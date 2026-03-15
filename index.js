@@ -104,7 +104,7 @@ app.get('/', (req, res) => {
         <body>
         <div class="navbar-greenup">
             <div>
-                <img src="img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
+                <src="/img/icon-greenup.png" alt="Logo_Green_Up" class="navbar-logo">
                 <a href="/" class="navbar-brand-text">GreenUp</a>
             </div>
             <div>
@@ -125,7 +125,7 @@ app.get('/', (req, res) => {
         </div>
         <div class="body2">
             <div class="container-form">
-                <img src="img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
+                <src="/img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
                 <div class="card-return">
                     <h2>Bem-vindo! </h2>
                     <p style="color:#777; font-size:0.92rem; margin-bottom:20px;">Use o menu acima para navegar.</p>
@@ -249,7 +249,7 @@ app.get('/cadastro', (req, res) => {
         <body>
         <div class="navbar-greenup">
             <div>
-                <img src="img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
+                <src="/img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
                 <a href="/" class="navbar-brand-text">GreenUp</a>
             </div>
             <div>
@@ -270,7 +270,7 @@ app.get('/cadastro', (req, res) => {
         </div>
         <div class="body2">
             <div class="container-form">
-                <img src="img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
+                <src="/img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
                 <div class="card-return">
                     <h2>Cadastrar</h2>
                     <form method="POST" action="/cadastro">
@@ -424,7 +424,7 @@ app.post("/cadastro", (req, res) => {
             <body>
             <div class="navbar-greenup">
                 <div>
-                    <img src="img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
+                    <src="/img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
                     <a href="/" class="navbar-brand-text">GreenUp</a>
                 </div>
                 <div>
@@ -444,7 +444,7 @@ app.post("/cadastro", (req, res) => {
             </div>
             <div class="body2">
                 <div class="container-form">
-                <img src="img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
+                <src="/img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
                     <div class="card-return">
                         <h2>Cadastrar</h2>
                         <form method="POST" action="/cadastro">
@@ -588,7 +588,7 @@ app.get("/listaClientes", (req, res) => {
         <body>
         <div class="navbar-greenup">
             <div>
-                <img src="img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
+                <src="/img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
                 <a href="/" class="navbar-brand-text">GreenUp</a>
             </div>
             <div>
@@ -761,7 +761,7 @@ app.get('/fornecedor', (req, res) => {
         <body>
         <div class="navbar-greenup">
             <div>
-                <img src="img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
+                <src="/img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
                 <a href="/" class="navbar-brand-text">GreenUp</a>
             </div>
             <div>
@@ -782,7 +782,7 @@ app.get('/fornecedor', (req, res) => {
         </div>
         <div class="body2">
             <div class="container-form">
-                <img src="img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
+                <src="/img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
                 <div class="card-return">
                     <h2>Cadastrar Fornecedor</h2>
                     <form method="POST" action="/fornecedor">
@@ -961,7 +961,7 @@ app.post("/fornecedor", (req, res) => {
             <body>
             <div class="navbar-greenup">
                 <div>
-                    <img src="img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
+                    <src="/img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
                     <a href="/" class="navbar-brand-text">GreenUp</a>
                 </div>
                 <div>
@@ -981,7 +981,7 @@ app.post("/fornecedor", (req, res) => {
             </div>
             <div class="body2">
                 <div class="container-form">
-                <img src="img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
+                <src="/img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
                     <div class="card-return">
                         <h2>Cadastrar Fornecedor</h2>
                         <form method="POST" action="/fornecedor">
@@ -1147,7 +1147,7 @@ app.get("/listaFornecedores", (req, res) => {
         <body>
         <div class="navbar-greenup">
             <div>
-                <img src="img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
+                <src="/img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
                 <a href="/" class="navbar-brand-text">GreenUp</a>
             </div>
             <div>
@@ -1334,7 +1334,7 @@ app.get('/login', (req, res) => {
         <body>
         <div class="navbar-greenup">
             <div>
-                <img src="img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
+                <src="/img/icon-greenup.png" alt="Logo GreenUp" class="navbar-logo">
                 <a href="/" class="navbar-brand-text">GreenUp</a>
             </div>
             <div>
@@ -1355,7 +1355,7 @@ app.get('/login', (req, res) => {
         </div>
         <div class="body2">
             <div class="container-form">
-                <img src="img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
+                <src="/img/icon-greenup.png" alt="Logo_Green_Up" class="logo">
                 <div class="card-return">
                     <h2>Login</h2>
                     <form method="POST" action="/login">
