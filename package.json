@@ -1,0 +1,23 @@
+{
+  "name": "atividade3",
+  "version": "1.0.0",
+  "description": "Atividade mega gigante",
+  "homepage": "https://github.com/Drakela2021/Atividade3#readme",
+  "bugs": {
+    "url": "https://github.com/Drakela2021/Atividade3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drakela2021/Atividade3.git"
+  },
+  "license": "ISC",
+  "author": "Eick Ricardo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
